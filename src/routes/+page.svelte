@@ -1,8 +1,8 @@
 <form method="post">
     <p>Enter your PID and your VINCOIN wallet address below</p>
 
-    <input id="id_field" type="text" placeholder="Enter PID here.."/>
-    <input id="wallet_address" type="text" placeholder="Enter address here..."/>
+    <input id="id_field" type="text" name="pid" placeholder="Enter PID here.."/>
+    <input id="wallet_address" type="text" name="wallet" placeholder="Enter address here..."/>
 
     <button>GET <code>VINCOINS</code></button>
 </form>
